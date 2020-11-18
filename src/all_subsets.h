@@ -1,5 +1,5 @@
-#ifndef _FUNCTIONS_H_
-#define _FUNCTIONS_H_
+#ifndef _ALL_SUBSETS_H_
+#define _ALL_SUBSETS_H_
 
 #include <map>
 #include <set>
