@@ -101,8 +101,7 @@ std::vector<std::vector<int>> get_vectors(std::set<std::vector<int>>& interm)
 
     for(auto & v: interm)
     {
-        if(v.size() < minimal_size)
-            minimal_size = v.size();
+        minimal_size = std::min(minimal_size, v.size());
     }
     for(auto & v: interm)
     {
